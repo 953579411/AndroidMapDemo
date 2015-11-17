@@ -37,9 +37,9 @@ public class MainActivity extends Activity {
         setSupportActionBar(toolbar);*/
 
         FrameLayout container = (FrameLayout) findViewById(R.id.container);
-        chanboMap =  new ChanboMap(container);
+        /*chanboMap =  new ChanboMap(container);
         imageLayer = new ImageLayer(chanboMap);
-        geometryLayer = new GeometryLayer(chanboMap);
+        geometryLayer = new GeometryLayer(chanboMap);*/
 
 
       /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
