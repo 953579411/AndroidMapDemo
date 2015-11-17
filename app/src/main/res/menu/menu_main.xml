@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_centerAt" android:title="@string/action_centerAt"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_zoomIn" android:title="@string/action_zoomIn"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_zoomOut" android:title="@string/action_zoomOut"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_zoomAll" android:title="@string/action_zoomAll"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_drawTarget" android:title="@string/action_drawTarget"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_removeTarget" android:title="@string/action_removeTarget"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_clearTarget" android:title="@string/action_clearTarget"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_seperator" android:title="@string/action_seperator"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_drawLine" android:title="@string/action_drawLine"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_drawPolygon" android:title="@string/action_drawPolygon"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_drawPolyline" android:title="@string/action_drawPolyline"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_drawRect" android:title="@string/action_drawRect"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_unDoGeometry" android:title="@string/action_unDoGeometry"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_deleteSelectedVertex" android:title="@string/action_deleteSelectedVertex"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_clearGeometry" android:title="@string/action_clearGeometry"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_getPointsGeometry" android:title="@string/action_getPointsGeometry"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_gpsToMap" android:title="@string/action_gpsToMap"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

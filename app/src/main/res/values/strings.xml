@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_centerAt">centerAt</string>
+    <string name="action_zoomIn">zoomIn</string>
+    <string name="action_zoomOut">zoomOut</string>
+    <string name="action_zoomAll">zoomAll</string>
+    <string name="action_drawTarget">drawTarget</string>
+    <string name="action_removeTarget">removeTarget</string>
+    <string name="action_clearTarget">clearTarget</string>
+    <string name="action_seperator">-</string>
+    <string name="action_drawLine">drawLine</string>
+    <string name="action_drawPolygon">drawPolygon</string>
+    <string name="action_drawPolyline">drawPolyline</string>
+    <string name="action_drawRect">drawRect</string>
+    <string name="action_unDoGeometry">unDoGeometry</string>
+    <string name="action_deleteSelectedVertex">deleteSelectedVertex</string>
+    <string name="action_clearGeometry">clearGeometry</string>
+    <string name="action_getPointsGeometry">getPointsGeometry</string>
+    <string name="action_gpsToMap">gpsToMap</string>
+</resources>
