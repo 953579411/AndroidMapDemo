@@ -52,7 +52,7 @@ public class GeometryLayer {
         mEditMode = EditMode.NONE;
 
         try {
-            mapView.setOnTouchListener(new MyTouchListener(map.context, mapView));
+            mapView.setOnTouchListener(new MyTouchListener(map.mapView.getContext(), mapView));
         }
         catch (Exception e){
             Log.e("GeometryLayer", "msg:" + e.getMessage() + ";tracktrace:" + e.getStackTrace());

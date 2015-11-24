@@ -14,9 +14,15 @@
 
     <!-- <include layout="@layout/content_main" /> -->
 
-    <com.chanbo.gq.mobilegis.ChanboMap2
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        ChanboMap2:exampleString = "abc"
-        android:id="@+id/view" />
+        android:id="@+id/editText"
+        android:layout_weight="1"
+        android:text="323132" />
+
+    <com.chanbo.gq.mobilegis.ChanboMap
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/map"/>
 </LinearLayout>

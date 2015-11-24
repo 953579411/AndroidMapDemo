@@ -33,13 +33,14 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        chanboMap = (ChanboMap)findViewById(R.id.map);
         /*Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);*/
 
-        FrameLayout container = (FrameLayout) findViewById(R.id.container);
-        /*chanboMap =  new ChanboMap(container);
+   //     FrameLayout container = (FrameLayout) findViewById(R.id.container);
+        //chanboMap =  new ChanboMap(container);
         imageLayer = new ImageLayer(chanboMap);
-        geometryLayer = new GeometryLayer(chanboMap);*/
+        geometryLayer = new GeometryLayer(chanboMap);
 
 
       /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -68,7 +69,8 @@ public class MainActivity extends Activity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+             //chanboMap.show();
+             return true;
         }
         else if (id == R.id.action_centerAt) {
             chanboMap.centerAt(113.2746, 23.1277);
