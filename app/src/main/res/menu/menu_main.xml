@@ -37,4 +37,6 @@
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_gpsToMap" android:title="@string/action_gpsToMap"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_findPoint" android:title="@string/action_findPoint"
+        android:orderInCategory="100" app:showAsAction="never" />
 </menu>

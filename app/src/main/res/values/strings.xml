@@ -18,5 +18,5 @@
     <string name="action_clearGeometry">clearGeometry</string>
     <string name="action_getPointsGeometry">getPointsGeometry</string>
     <string name="action_gpsToMap">gpsToMap</string>
-    <string name="chanbomaptext">ufvuyvuy</string>
+    <string name="action_findPoint">findPoint</string>
 </resources>
