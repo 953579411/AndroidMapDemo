@@ -19,4 +19,5 @@
     <string name="action_getPointsGeometry">getPointsGeometry</string>
     <string name="action_gpsToMap">gpsToMap</string>
     <string name="action_findPoint">findPoint</string>
+    <string name="action_findRoad">findRoad</string>
 </resources>

@@ -39,4 +39,6 @@
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_findPoint" android:title="@string/action_findPoint"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_findRoad" android:title="@string/action_findRoad"
+        android:orderInCategory="100" app:showAsAction="never" />
 </menu>
