@@ -20,4 +20,5 @@
     <string name="action_gpsToMap">gpsToMap</string>
     <string name="action_findPoint">findPoint</string>
     <string name="action_findRoad">findRoad</string>
+    <string name="action_findRoute">findRoute</string>
 </resources>
